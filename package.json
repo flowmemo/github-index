@@ -1,0 +1,27 @@
+{
+  "name": "github-index",
+  "version": "1.0.0",
+  "description": "calculate the h-index, i10-index, and g-index according to repos' stars of github user",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "flowmemo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flowmemo/h-index.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "h-index": "^1.1.0",
+    "lodash.escaperegexp": "^4.1.2",
+    "node-fetch": "^1.6.0"
+  }
+}
