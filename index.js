@@ -1,5 +1,5 @@
 'use strict'
-const fetch = require('node-fetch')
+const fetch = require('isomorphic-fetch')
 const hindex = require('h-index')
 const escapeRegExp = require('lodash.escaperegexp')
 
